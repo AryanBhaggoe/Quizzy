@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Lilita+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/quizzy_home.css">
+    <title> Hoofdpagina Quizzy </title>
+</head>
+<body>
+    
+    <header class="header-box">
+
+            <a id="logo">    
+                <div>Quizzy</div>
+            </a>
+
+            <nav class="navbar-box">
+                <ul class="nav-items">
+                    <li><a href="./quizzy_home.html">Hoofdpagina</a></li>
+                    <li><a href="../quizzy_quiz-alg/quiz2.html">Quiz Spelen</a></li>
+                    <li><a href="../quizzy_infopagina/info.html">Informatie</a></li>
+                </ul>
+            </nav>
+
+            <a id="speel-nu">
+                <div onclick="scrollTo1()">Speel Nu</div>
+            </a>
+
+    </header> 
+
+    <section class="section-1">
+
+        <div class="sec1-items">
+
+            <h2 class="sec1-h2" id="sec1-h2-boven">Maak je klaar voor de</h2>
+            <h2 class="sec1-h2" id="sec1-h2-onder">Uitdaging!</h2>
+
+
+            <p id="sec1-text">Deze quiz is gemaakt om jou op een leuke en interactieve manier meer te leren over democratie.
+                Ontdek hoe wetten worden gemaakt, wat de rol is van politieke partijen en waarom verkiezingen
+                zo belangrijk zijn. Door vragen te beantwoorden verdien je punten en verbeter je je kennis over
+                het politieke systeem. Of je nu veel weet of net begint, deze quiz helpt je om beter te begrijpen
+                hoe democratie werkt en wat jouw rechten en plichten zijn als burger.</p>
+
+            <div class="sec1-knoppen">
+                <a id="sec1-knop1">
+                    <div onclick="scrollTo2()">Speel Nu</div>
+                </a>
+                <a id="sec1-knop2" href="../quizzy_infopagina/info.html">
+                    <p>Informatie voor de quiz</p>
+                    <hr style="width: 100%; height: 2px; background-color: black; border: none;">
+                </a>
+            </div>
+
+        </div>
+        
+        <div class="sec1-foto">
+            <img src="../media/image 1 (1).png" id="quiz-pic">
+        </div>
+
+    </section>
+
+        <div class="tussenline-1"></div>
+
+    <section class="section-2">
+
+        <div class="sec2-foto">
+            <img src="../media/image 2.png" id="tweede-pic">
+        </div>
+
+        <div class="sec2-items">
+
+            <h2 id="sec2-h2-boven">Klaar voor de Quiz?</h2>
+            <h2 class="sec2-h2" id="sec2-h2-midden">Beantwoord vragen, Verzamel</h2>
+            <h2 class="sec2-h2" id="sec2-h2-onder">punten en Win!</h2>
+
+            <p id="sec2-text">
+                Ben jij klaar om je kennis over democratie te testen? Speel quizzen, verzamel punten en ontdek hoe goed jij het politieke systeem begrijpt. 
+                Leer op een interactieve manier over verkiezingen, stemrecht en de invloed van politiek op jouw leven.  
+                Ontdek hoe wetten worden gemaakt, waarom jouw stem ertoe doet en hoe je als burger een verschil kunt maken in de samenleving.
+            </p>
+
+        </div>
+
+    </section>
+
+        <div class="tussenline-2"></div>
+
+    <section class="section-3" id="section-3">
+
+        <div class="sec3-titel">
+            <h2 class="sec3-h2">Kies een categorie</h2>
+        </div>
+
+        <div class="sec3-items">
+
+            <div class="sec3-item1">
+                <a href="../quizzy_quiz-alg/quiz2.html">
+                    <img src="../media/image 4 (1).png" class="sec3-pics">
+                    <div class="sec3-text">
+                        <p class="sec3-text-boven">Democratie algemeen</p>
+                        <p class="sec3-text-onder">In totaal 15 vragen</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="sec3-item2">
+                <a href="../quizzy_quiz-nl/quiz.html">
+                    <img src="../media/Flag_of_the_Netherlands.png" class="sec3-pics">
+                    <div class="sec3-text">
+                        <p class="sec3-text-boven">Democratie in Nederland</p>
+                        <p class="sec3-text-onder">In totaal 15 vragen</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="sec3-item3">
+                <a href="../quizzy_quizpagina/quizpagina.html">
+                    <img src="../media/Flag_of_Belgium.png" class="sec3-pics">
+                    <div class="sec3-text">
+                        <p class="sec3-text-boven">Democratie in België</p>
+                        <p class="sec3-text-onder">In totaal 15 vragen</p>
+                    </div>
+                </a>
+            </div>
+            
+        </div>
+
+    </section>
+
+
+    <script src="./javascript/quizzy_home.js"></script>
+</body>
+</html>

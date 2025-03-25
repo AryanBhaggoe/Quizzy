@@ -1,0 +1,213 @@
+/*   
+font-family: "Lilita One", sans-serif;
+font-family: "Roboto", sans-serif;
+font-family: "Alexandria", sans-serif;
+*/
+
+html, body {
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-height: 140vh;
+    background-color: #fcf7ff;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #9F72B8;
+    color: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    border-radius: 12px;
+}
+#logo {
+    position: absolute;
+    left: 0;
+    margin-left: 40px;
+    font-family: "Lilita One", sans-serif;
+    font-size: 45px;
+    cursor: pointer;
+}
+#speel-nu {
+    position: absolute;
+    right: 0;
+    margin-right: 40px;
+    background-color: #FEDC25;
+    color: black;
+    border-radius: 10px;
+    padding: 12px 50px;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+}
+.nav-items {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30vh;
+    margin-right: 375px;
+    margin-left: 50px;
+}
+.nav-items a {
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+}
+.nav-items li {
+    position: relative;
+}
+.nav-items li::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    width: 0;
+    height: 2.5px;
+    background-color: white;
+    transition: all 0.4s ease-in-out;
+    transform: translateX(-50%);
+}
+.nav-items li:hover::after {
+    width: 100%;
+}
+#speel-nu:hover {
+    background-color: #c1a503;
+}
+.section-1 {
+    background: linear-gradient(#AE74CE, #5E5B95);
+    border-radius: 20px;
+    height: 1200px;
+    margin-top: 100px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.sec1-bovenkant {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec1-boven-links {
+    margin-top: 50px;
+    margin-left: 75px;
+}
+.sec1-boven-rechts {
+    margin-right: 200px;
+    margin-top: 25px;
+}
+#sec1-titel {
+    font-family: "Alexandria", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #7E16B8;
+    margin-bottom: 20px;
+}
+#sec1-vraag {
+    font-family: "Alexandria", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+#sec1-timer {
+    font-family: "Alexandria", sans-serif;
+    font-size: 25px;
+}
+.sect1-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 75px;
+}
+.sec1-opties {
+    display: flex;
+    flex-direction: column;
+    margin-left: 75px;
+    gap: 80px;
+}
+.sec1-opties input {
+    display: none;
+}
+.ant-opties {
+    background-color: #FEDC25;
+    padding: 25px 225px;
+    border-radius: 20px;
+    width: 700px;
+    cursor: pointer;
+}
+.ant-opties:hover {
+    background-color: #c1a503;
+}
+.sec1-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec1-vraagnummer {
+    position: absolute;
+    left: 200px;
+    font-family: "Alexandria", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+.sec1-vraagtext {
+    font-family: "Alexandria", sans-serif;
+    font-size: 19px;
+}
+.sec1-fotos {
+    margin-right: 75px;
+}
+#sec1-foto {
+    border-radius: 20px;
+    width: 500px;
+}
+.sec1-onderkant {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 75px;
+    margin-right: 150px;
+}
+#sec1-volgende-knop {
+    background-color: #FEDC25;
+    padding: 25px 225px;
+    border-radius: 20px;
+    width: 700px;
+    font-family: "Alexandria", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#sec1-vorige-knop {
+    background-color: #FEDC25;
+    padding: 25px 100px;
+    border-radius: 20px;
+    font-family: "Alexandria", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#sec1-vorige-knop:hover {
+    background-color: #c1a503;
+}
+#sec1-volgende-knop:hover {
+    background-color: #c1a503;
+}
+#resultaat {
+    font-family: "Alexandria", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}

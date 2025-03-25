@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzy - Democratie Quiz</title>
+    <link rel="stylesheet" href="./css/quiz2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Lilita+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header-box">
+        <a id="logo">    
+            <div>Quizzy</div>
+        </a>
+        <nav class="navbar-box">
+            <ul class="nav-items">
+                <li><a href="../quizzy_hoofdpagina/quizzy_home.html">Hoofdpagina</a></li>
+                <li><a href="./quiz2.html">Quiz Spelen</a></li>
+                <li><a href="../quizzy_infopagina/info.html">Informatie</a></li>
+            </ul>
+        </nav>
+        <a id="speel-nu">
+            <div>Speel Nu</div>
+        </a>
+    </header>
+ 
+    <div class="center-container">
+        <div id="paars">
+            <!-- Afbeelding voor de quiz -->
+            <div id="img">
+                <img id="quiz-afbeelding" src="" alt="Afbeelding bij de vraag">
+            </div>
+            <p id="quiz-vraag">Wat voor soort democratie heeft Nederland?</p>
+            <div id="antwoord-container"></div>
+            <div class="sec1-boven-rechts">
+                <p id="sec1-timer">Tijd: 0 sec</p>
+            </div>
+            <p id="resultaat"></p>
+        </div>
+    </div>
+
+    <script src="./js/quiz2.js"></script>
+</body>
+</html>

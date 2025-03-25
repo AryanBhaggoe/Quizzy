@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/quizpagina.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Lilita+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Quiz Pagina</title>
+</head>
+<body>
+
+    <header class="header-box">
+        <a id="logo">    
+            <div>Quizzy</div>
+        </a>
+        <nav class="navbar-box">
+            <ul class="nav-items">
+                <li><a href="../quizzy_hoofdpagina/quizzy_home.html">Hoofdpagina</a></li>
+                <li><a href="../quizzy_quiz-alg/quiz2.html">Quiz Spelen</a></li>
+                <li><a href="../quizzy_infopagina/info.html">Informatie</a></li>
+            </ul>
+        </nav>
+        <a id="speel-nu">
+            <div>Speel Nu</div>
+        </a>
+    </header> 
+
+    <section class="section-1">
+        <div class="sec1-bovenkant">
+            <div class="sec1-boven-links">
+                <h2 id="sec1-titel">Quizzy Vraag 1:</h2>
+                <p id="sec1-vraag">Wie is de huidige koning van België?</p>
+            </div>
+            <div class="sec1-boven-rechts">
+                <p id="sec1-timer">Tijd: 0 sec</p>
+            </div>
+        </div>
+
+        <div class="sect1-items">
+            <div class="sec1-opties" id="antwoord-opties">
+                <!-- Antwoorden worden hier toegevoegd -->
+            </div>
+
+            <div class="sec1-fotos">
+                <img src="../media/staatsvorm.jpg" id="sec1-foto"> 
+            </div>
+        </div>
+
+        <div id="resultaat"></div>
+
+        <div class="sec1-onderkant">
+            <div id="sec1-vorige-knop"> Vorige Vraag </div>
+            <div id="sec1-volgende-knop"> Naar Volgende Vraag -> </div>
+        </div>
+
+    </section>
+
+    <script src="./javascript/quizpagina.js"></script>
+</body>
+</html>
